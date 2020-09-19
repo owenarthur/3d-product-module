@@ -1,0 +1,52 @@
+{
+  "name": "hrr47-mvp",
+  "version": "1.0.0",
+  "description": "threejs and parallax",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d --watch",
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owenarthur/hrr47-mvp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owenarthur/hrr47-mvp/issues"
+  },
+  "homepage": "https://github.com/owenarthur/hrr47-mvp#readme",
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "es6-tween": "^5.5.11",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1",
+    "three": "^0.120.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@svgr/webpack": "^5.4.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "file-loader": "^6.1.0",
+    "nodemon": "^2.0.4",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
