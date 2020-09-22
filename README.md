@@ -11,7 +11,7 @@
 
 ## Description
 
-> This component was written during a one-day design sprint. It was designed as a proof of concept for a plugin that, with inputs of a 3D model, some advertising copy, and a color scheme, would produce an interactive product display. I utilized Three.js for the rendering of the model, and have been impressed with its performance on a variety of hardware. Particular fun was had implementing a custom, scroll-sensitive parallax feature. It appears that the definitive React scrolling library has yet to be written -- a situation that gives front-end developers a great exucse to implement custom features and optimizations.
+> This component was written during a one-day design sprint. It was designed as a proof of concept for a plugin that, with inputs of a 3D model, some advertising copy, and a color scheme, would produce an interactive product display. I utilized Three.js for the rendering of the model, and have been impressed with its performance on a variety of hardware. Particular fun was had implementing a custom, scroll-sensitive parallax feature. It appears that the definitive React scrolling library has yet to be written -- a situation that gives front-end developers a great excuse to implement custom features and optimizations.
 
 > A custom SVG overlay was mocked up as a finishing touch for end-of-day presentations, but its positioning still needs to be coordinated with the 3D model upon window resizing. Future attention would also need to be paid to modularizing the custom scrolling.
 
